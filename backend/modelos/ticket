@@ -1,0 +1,13 @@
+const mongoose = require('mongoose')
+
+const ticketSchema = new mongoose.Schema({
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  event: {}
+})
+
+
+Lo siguiente seria gestionar los errores o modificaciones en attended Events; 
+
+- Generar el click en el swiper, cuando le doy click a una imagen del carrusel de attended deberia de abrirse el singularattendedEvent, es decir el attended event particular.
+
+-Dentro del listado, no me aparecen los eventos del usuario atendidos 

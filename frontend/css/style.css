@@ -1,0 +1,63 @@
+/* reseteo */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* dejo el flex column aqui para conseguir  pantalla completa */
+  text-transform: capitalize;
+  background-color: #3e1717;
+  color: #fff;
+}
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* flex column again */
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  /* flex column y overflow bloqueado  */
+}
+
+/* secciones con hide de normal */
+.view {
+  flex: 1;
+  overflow-y: hidden;
+  display: none;
+}
+.view:not(.hidden) {
+  display: block;
+}
+.view.hidden {
+  display: none !important;
+}
+
+/* Mensajes de estado globales */
+.error {
+  color: #ffdddd;
+  margin-top: 0.5rem;
+}
+.success {
+  color: #ddffdd;
+  margin-top: 0.5rem;
+}
+footer {
+  flex-shrink: 0;
+}

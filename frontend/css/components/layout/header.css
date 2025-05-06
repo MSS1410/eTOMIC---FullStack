@@ -1,0 +1,75 @@
+/* auth para el login y register */
+.auth-header {
+  background-color: #3e1717;
+  height: 210px;
+
+  padding: 1rem;
+  text-align: center;
+}
+.auth-header-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.auth-logo {
+  width: 100px;
+  border-radius: 100px;
+  height: 90px;
+}
+
+.auth-header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* app para todo */
+.app-header {
+  background: #2a0f0f;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.app-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.app-logo {
+  width: 100px;
+  border-radius: 100px;
+  height: 90px;
+}
+.app-tittle {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+}
+.clicks-subVista ul {
+  list-style: none;
+  margin-right: 3rem;
+  padding: 0;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+.clicks-subVista a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.clicks-subVista a:hover {
+  text-decoration: underline;
+}
+
+#logOut-click {
+  color: #ffb1b1;
+
+  margin-left: 80px;
+
+  font-size: 1.2rem;
+}
