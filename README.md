@@ -151,7 +151,7 @@ Servidor escuchando en `http://localhost:${PORT}`.
 
 - Se abrirá automáticamente en el navegador con recarga en vivo.
 
- Abre el navegador en `http://localhost:5173` (o el puerto que muestre la consola).
+ Abre el navegador en `http://localhost:3066` (o el puerto que muestre la consola).
 
 ---
 
@@ -196,7 +196,7 @@ const UserSchema = new mongoose.Schema({
 module.exports = mongoose.model('User', UserSchema);
 ```
 
-Añade aquí una breve descripción de cada modelo que uses.
+
 
 ---
 
